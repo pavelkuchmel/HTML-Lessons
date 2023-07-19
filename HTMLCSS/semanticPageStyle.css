@@ -1,0 +1,39 @@
+*{
+    margin: 10px;
+    color: white;
+}
+header{
+    display: flex;
+    float: start;
+    background-color: rgb(146 49 88);
+    padding: 15px 30px;
+}
+menu, footer{
+    display: flex;
+    float: start;
+    background-color: rgb(110 18 55);
+    padding: 10px 10px 10px 30px;
+}
+.container-main{
+    display: flex;
+    flex-direction: row;
+}
+aside, main{
+    background-color: rgb(182 91 128);
+    padding: 15px 30px;
+}
+section{
+    background-color: rgb(219 146 175);
+    width: 450px;
+    height: 50px;
+    padding: 15px 30px;
+    margin-left: 0;
+}
+.container-main > aside:last-child {
+    display: flex;
+    float: end;
+    margin-right: 0;
+}
+.container-main > div > aside, .container-main > div{
+    margin-left: 0;
+}

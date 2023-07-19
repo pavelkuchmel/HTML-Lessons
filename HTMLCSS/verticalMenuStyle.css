@@ -1,0 +1,14 @@
+img{
+    width: 50px;
+    height: 50px;
+}
+.container-item{
+    display: flex;
+    background-color: rgb(128 128 128);
+    align-items: center;
+    justify-items: start;
+    width: 150px;
+}
+.container-item:hover{
+    background-color: rgb(94 94 94);
+}
