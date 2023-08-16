@@ -1,0 +1,37 @@
+*{
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+div{
+    overflow: hidden;
+}
+p:hover{
+    transform: rotate(180deg);
+    transition: all 3s ease-in-out;
+}
+/*
+p{
+    animation-name: slideIn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes slideIn {
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 250%;
+    }
+
+}*/

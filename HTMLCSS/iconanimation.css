@@ -1,0 +1,12 @@
+*{
+    display: flex;
+}
+img{
+    filter: grayscale(100%);
+    width: 50px;
+}
+img:hover{
+    filter: grayscale(0%);
+    width: 110%;
+    transition: all 3s ease-in-out;
+}
