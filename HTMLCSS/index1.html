@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width">
+    <title>Title</title>
+    <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="central-container">
+            <div class="logo">
+                Logo
+            </div>
+            <div class="logo-menu-mobile">
+                <img src="./icon/menu.png" alt="menu">
+            </div>
+            <nav class="menu">
+                <span class="menu_item">Home</span>
+                <span class="menu_item">Blog</span>
+                <span class="menu_item">Catalog</span>
+                <span class="menu_item">About</span>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container">
+        <div class="first"></div>
+        <div class="second"></div>
+        <div class="last"></div>
+    </section>
+
+    <script>
+        let menu = document.querySelector('.menu');
+        let menuBtn = document.querySelector('.logo-menu-mobile');
+        let menuState = true;
+
+        menuBtn.addEventListener('click', () => {
+            menuState = !menuState;
+            menuState ? menu.style.display = 'flex' :  menu.style.display = 'none';
+        })
+    </script>
+</body>
+</html>
